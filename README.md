@@ -19,5 +19,5 @@ A simple Java-based framework to manage and execute test cases, then generate fo
 
 ### 🚀 Run
 ```bash
-javac -d bin src/main/java/**/*.java
+javac -d bin src/main/java/Main.java src/main/java/model/*.java src/main/java/service/*.java
 java -cp bin Main
