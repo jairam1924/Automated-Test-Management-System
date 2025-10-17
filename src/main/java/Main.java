@@ -12,7 +12,7 @@ public class Main {
         manager.executeTests();
 
         ReportGenerator generator = new ReportGenerator();
-        generator.generateReport(manager.getTestCases(), "test-report.txt");
+        generator.generateReport(manager.getTestCases(), "test_reports/test-report.txt");
 
         System.out.println("✅ Test execution complete. Report generated: test-report.txt");
     }
