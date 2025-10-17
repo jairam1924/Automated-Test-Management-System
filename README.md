@@ -18,5 +18,6 @@ A simple Java-based framework to manage and execute test cases, then generate fo
 - Ready for manual + automation extensions
 
 ### 🚀 Run
+```bash
 javac -d bin src/main/java/**/*.java
 java -cp bin Main
