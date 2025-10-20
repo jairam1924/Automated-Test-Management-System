@@ -29,3 +29,7 @@ A simple Java-based framework to manage and execute test cases, then generate fo
 ```bash
 mvn clean test
 mvn exec:java -Dexec.mainClass="Main"
+```
+
+### Sample Output Report
+<img width="1005" height="544" alt="Screenshot 2025-10-20 103958" src="https://github.com/user-attachments/assets/b44941bc-dacf-4f8c-a764-6e801e58b73d" />
