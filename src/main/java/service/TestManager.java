@@ -19,12 +19,13 @@ public class TestManager {
     }
 
     public void executeTests() {
-        for (TestCase t : testCases) {
-            String actual = t.getExpected().equalsIgnoreCase("PASS") ? "PASS" : "FAIL";
-            t.setActual(actual);
-            t.setStatus(actual.equals(t.getExpected()) ? "PASS" : "FAIL");
-        }
+    for (TestCase t : testCases) {
+        String actual = TestExecutor.runTest(t);
+        t.setActual(actual);
+        t.setStatus(actual.equals(t.getExpected()) ? "PASS" : "FAIL");
     }
+}
+
 
     public List<TestCase> getTestCases() {
         return testCases;

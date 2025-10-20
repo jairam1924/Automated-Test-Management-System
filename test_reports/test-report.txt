@@ -1,9 +1,0 @@
-===== TEST EXECUTION REPORT =====
-ID         Description               Expected   Actual     Status    
--------------------------------------------------------------
-TC01       Verify Login Button       PASS       PASS       PASS      
-TC02       Validate Error Message    FAIL       FAIL       PASS      
-TC03       Check Home Page Load      PASS       PASS       PASS      
-
-Summary:
-Total: 3, Passed: 3, Failed: 0
